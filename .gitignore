@@ -1,0 +1,15 @@
+# create this file before git add
+cat > .gitignore << 'EOF'
+.venv/
+__pycache__/
+*.pyc
+.env
+.pytest_cache/
+*.egg-info/
+dist/
+.coverage
+htmlcov/
+EOF
+
+git add .gitignore
+git commit -m "chore: add gitignore"
