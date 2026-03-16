@@ -1,5 +1,6 @@
 # Autonomous Alpha Pipeline
 
+![CI](https://github.com/Ummar-456/autonomous-alpha-pipeline/actions/workflows/ci.yml/badge.svg)
 A production-grade, multi-agent, event-driven orchestration system for real-time market microstructure analysis. Ingests a simulated high-frequency Binance LOB feed at 10 Hz, contextualises signals via a RAG system, routes structured execution decisions through a LangGraph state machine, and surfaces everything through a live Prometheus + Grafana observability stack.
 
 **Live dashboard results (BTC/USDT, 15-minute window):**
